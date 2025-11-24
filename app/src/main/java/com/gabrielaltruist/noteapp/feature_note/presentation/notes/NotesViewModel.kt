@@ -1,4 +1,4 @@
-package com.gabrielaltruist.noteapp.feature_note.presentation
+package com.gabrielaltruist.noteapp.feature_note.presentation.notes
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
@@ -6,7 +6,6 @@ import com.gabrielaltruist.noteapp.feature_note.domain.model.Note
 import com.gabrielaltruist.noteapp.feature_note.domain.use_case.NoteUseCases
 import com.gabrielaltruist.noteapp.feature_note.domain.util.NoteOrder
 import com.gabrielaltruist.noteapp.feature_note.domain.util.OrderType
-import com.gabrielaltruist.noteapp.feature_note.presentation.util.NotesEvent
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.flow.MutableStateFlow

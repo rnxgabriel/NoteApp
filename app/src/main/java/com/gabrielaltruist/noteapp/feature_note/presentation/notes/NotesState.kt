@@ -1,4 +1,4 @@
-package com.gabrielaltruist.noteapp.feature_note.presentation
+package com.gabrielaltruist.noteapp.feature_note.presentation.notes
 
 import com.gabrielaltruist.noteapp.feature_note.domain.model.Note
 import com.gabrielaltruist.noteapp.feature_note.domain.util.NoteOrder
